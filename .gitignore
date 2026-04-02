@@ -1,5 +1,8 @@
 build
+Debug
 *.out
 *.exe
+*.so
+*.dll
 test3
 
