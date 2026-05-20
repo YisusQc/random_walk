@@ -14,6 +14,8 @@ add_executable(${PROJECT_NAME}
   random_walk.cpp
 )
 
+target_include_directories(${PROJECT_NAME} PRIVATE <path>)
+
 target_link_libraries(${PROJECT_NAME}
   Boost::iostreams
   Boost::filesystem
